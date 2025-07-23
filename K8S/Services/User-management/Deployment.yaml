@@ -27,3 +27,4 @@ spec:
           envFrom:
             - secretRef:
                 name: user-management-env
+echo "# Trigger CI/CD" >> K8S/Services/User-management/Deployment.yaml
